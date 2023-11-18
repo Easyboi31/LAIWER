@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+    background-color: rgb(140, 213, 37);
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+/* flex item of d app */
+nav{
+    flex-basis: 10vh;
+    background-color: black;    
+    
+    
+    display: flex;
+    justify-content: center;
+}
+/* flex item of nav */
+.nav-container{
+    flex-basis: 1400px;    
+    
+    display: flex;
+    justify-content: space-between;    
+}
+/* flex item of d nav-content */
+.nav-box{
+    color: white;
+    margin-top: 30px;
+    gap: 20px;    
+
+    
+    display: flex;
+    justify-content: center;
+}
+a{
+    color: white;
+}
+.sign-up{
+    color: black;
+    width: 80px;
+    height: 25px;
+}
+/* flex item of the app 2 */
+main{
+    background-color: rgb(140, 213, 37);
+    flex-grow: 1;
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main-container{
+    flex-basis: 1200px;
+    flex-grow: 1;
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main-content{
+    flex-basis: 600px;
+    
+    display: flex;
+    flex-direction: column;
+}
+.main-content1{
+    gap: 30px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-content2{
+    flex-basis:700px;
+
+    
+    display: flex;
+    flex-direction: column;
+
+}
+img{
+    flex-wrap: wrap;
+    width: 50vw;
+    height: 70vh;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.main-box1{
+    font-size: 25px;
+}
+.main-box2{
+    font-size: 17px;
+}
+.main-box3{
+    display: flex;
+    gap: 0px;
+    
+}
+.output{
+    width: 250px;
+    height: 35px;
+
+    display: flex;
+}
+button{
+    width: 125px;
+    color: white;
+    background-color: black;
+}
+
+
+
+
